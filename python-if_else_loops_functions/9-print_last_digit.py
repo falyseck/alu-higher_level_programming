@@ -1,3 +1,3 @@
-#!/usr/bin/pyhton3
-def last_digit(digit):
-    return abs(digit) % 10
+#!/usr/bin/python3
+def print_last_digit(number):
+    return abs(number) % 10
