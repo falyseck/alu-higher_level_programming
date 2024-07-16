@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-''' returns object (Python data structure) represented by a JSON string:'''
+'''A function that reads a json file'''
 
 
 import json
 
 
-def from_json_string(my_obj):
-    '''The real function that returns a json obj'''
-    return json.loads(my_obj)
+def save_to_json_file(my_obj, filename):
+    '''saves a doc to a json format'''
+    with open(filename, 'w+') as f:
+        return json.dump(my_obj, f)
