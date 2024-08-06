@@ -4,8 +4,6 @@
 - fetches https://intranet.hbtn.io/status.
 """
 import requests
-
-
 if __name__ == "__main__":
     url = 'https://intranet.hbtn.io/status'
     if url.startswith('https://'):
